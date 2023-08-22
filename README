@@ -1,0 +1,7 @@
+O objetivo deste projeto é emular o funcionamento básico de um sistema operacional. A ideia é criar uma emulação simplificada das operações realizadas por um SO. O algoritmo de escalonamento utilizado é o Shortest Remaining Time First (SRTF), onde o programa com o menor tempo de execução restante é escolhido para ser executado até ocorrer uma interrupção. Para a gestão de memória, utiliza-se um sistema de segmentação dividido em blocos de 8 KB.
+
+Os "programas" utilizados são arquivos sintéticos, onde o primeiro bloco de texto contém as configurações do programa sintético e o segundo bloco contém as operações. As operações consistem no nome da operação, seguido pelo tempo estimado para a sua conclusão.
+
+Para esta simulação, threads são utilizadas para representar os núcleos da CPU, enquanto outras 2 threads são alocadas para operações de E/S, como impressão e operações de disco. Essa abordagem permite uma representação simplificada das interações entre os componentes de hardware e processos em um sistema operacional.
+
+Caso tenha mais dúvidas ou precise de esclarecimentos adicionais, fique à vontade para perguntar!
