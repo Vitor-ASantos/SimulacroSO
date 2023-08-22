@@ -3,5 +3,3 @@ O objetivo deste projeto é emular o funcionamento básico de um sistema operaci
 Os "programas" utilizados são arquivos sintéticos, onde o primeiro bloco de texto contém as configurações do programa sintético e o segundo bloco contém as operações. As operações consistem no nome da operação, seguido pelo tempo estimado para a sua conclusão.
 
 Para esta simulação, threads são utilizadas para representar os núcleos da CPU, enquanto outras 2 threads são alocadas para operações de E/S, como impressão e operações de disco. Essa abordagem permite uma representação simplificada das interações entre os componentes de hardware e processos em um sistema operacional.
-
-Caso tenha mais dúvidas ou precise de esclarecimentos adicionais, fique à vontade para perguntar!
